@@ -71,9 +71,7 @@ public class Pessoa implements Serializable{
 	public Pessoa() {}
 
 	public Pessoa(String nomePessoa, String nomeMae, String telefone, String observacao, LocalDate dataNascimento,
-			 Usuario usuario,
-			Pasta pasta, Endereco endereco,
-			Documentacao documentacao) {
+			 Usuario usuario, Pasta pasta, Endereco endereco, Documentacao documentacao) {
 		
 		this.nomePessoa = nomePessoa;
 		this.nomeMae = nomeMae;
